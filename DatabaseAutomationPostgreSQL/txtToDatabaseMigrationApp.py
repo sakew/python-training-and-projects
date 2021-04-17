@@ -18,7 +18,7 @@ print(records)
 # establishing the connection to the database.
 
 try:
-    connection = psycopg2.connect(database="staff", user="sakew", password="adolex94",
+    connection = psycopg2.connect(database="staff", user="sakew", password="",
                                   host="127.0.0.1", port="5432")
 
 except psycopg2.Error as err:
